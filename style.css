@@ -156,3 +156,46 @@ h1{
     justify-content: space-evenly;
     margin-right: 20px;
 }
+
+@media screen and (max-width: 1080px){
+    h1{
+        font-size: 70px;
+        margin: 10px 0 30px;
+        line-height: 40px;
+    }
+
+    .side-bar{
+        cursor: pointer;
+         width: 100%;
+         background: transparent;
+         height: 100px;
+         top: auto;
+         bottom: 0;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 0 10px;
+         
+     }
+
+     .social-links {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    .menu {
+        width: 60px;
+        margin: 40px 45px 46px;
+        justify-content: space-around;
+    }
+    
+    .hero{
+        background-image: url(/images/mobile.jpg);
+    }
+
+}
