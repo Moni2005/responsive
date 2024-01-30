@@ -3,3 +3,5 @@ This is a text test file just to test that my git and git hub is working alright
 
 
  an edit to the untracked file
+
+ just to check if it works or not
